@@ -1,4 +1,4 @@
-# CUDA setup for Pytorch (Windows 10) &darr; [url](https://pytorch.org/get-started/locally/)
+# CUDA setup for Pytorch (Windows 10) &darr;
 
 CPU 버전 pytorch를 설치했다면, 기존 버전을 제거하자. &darr;
 ```bash
@@ -7,6 +7,8 @@ pip uninstall torch torchvision
 이후 GPU 버전 pytorch 설치. 위 url에서 torch버전과 그에 맞는 [cuda 버전을 확인](https://pytorch.org/get-started/locally/)하자.
 
 <font color="#F78181">torch</font> == 2.0.1<br><font color="#58FAAC">cuda</font> 11.7 or 11.8 &darr;
+
+Run this Command:의 명령어를 복사하여 터미널에 붙여넣자.
 
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
