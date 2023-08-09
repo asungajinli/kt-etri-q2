@@ -1,3 +1,5 @@
+# CUDA setup for Pytorch (Windows 10) &darr; [url](https://pytorch.org/get-started/locally/)
+
 CPU 버전 pytorch를 설치했다면, 기존 버전을 제거하자. &darr;
 ```bash
 pip uninstall torch torchvision
