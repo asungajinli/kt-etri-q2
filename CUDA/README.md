@@ -6,7 +6,7 @@ pip uninstall torch torchvision
 ```
 이후 GPU 버전 pytorch 설치. 위 url에서 torch버전과 그에 맞는 [cuda 버전을 확인](https://pytorch.org/get-started/locally/)하자.
 
-<span style="color:#F78181"><b>torch</b></span> == 2.0.1<br><span style="color:#58FAAC"><b>cuda</b></span> 11.7 or 11.8
+<font color="#F78181"><b>torch</b></font> == 2.0.1<br><font color="#58FAAC"><b>cuda</b></font> 11.7 or 11.8
 
 Run this Command: 의 명령어를 복사하여 터미널에 붙여넣자.
 
